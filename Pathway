@@ -1,94 +1,35 @@
-🌐 Microsoft Azure Courses (Simplified by Use-Case)
-
-Azure offers many certifications and courses depending on your goals. Here's a simplified breakdown:
-
-
----
+🌐 Microsoft Azure Courses
 
 1. For Beginners (No experience needed)
-
-Course/Cert	Use-Case	Description
-
-AZ-900: Azure Fundamentals	General understanding	Intro to cloud concepts, core Azure services, pricing, support, and cloud security. Great for absolute beginners.
-
-
-
----
+   AZ-900 :
+   Azure Fundamentals	General understanding	Intro to cloud concepts, core Azure services, pricing, support, and cloud security.
 
 2. For Developers
-
-Course/Cert	Use-Case	Description
-
-AZ-204: Developing Solutions for Microsoft Azure	Building apps in the cloud	Learn how to build, test, and maintain cloud applications using Azure SDKs, storage, containers, and more.
-AI-102: Designing and Implementing an Azure AI Solution	AI & Machine Learning apps	Focuses on building AI solutions using services like Azure Cognitive Services, LUIS, and Bot Framework.
-
-
-
----
+   AZ-204 :
+   Developing Solutions for Microsoft Azure	Building apps in the cloud	Learn how to build, test, and maintain cloud applications using Azure SDKs, storage, containers, and more.
+   
+   AI-102 :
+   Designing and Implementing an Azure AI Solution	AI & Machine Learning apps	Focuses on building AI solutions using services like Azure Cognitive Services, LUIS, and Bot Framework.
 
 3. For Admins / IT Professionals
-
-Course/Cert	Use-Case	Description
-
-AZ-104: Azure Administrator	Managing cloud infrastructure	Covers virtual machines, identity, storage, networking, and governance.
-AZ-500: Azure Security Engineer	Cloud security	Focuses on managing identity, securing data and networks, and monitoring threats.
-
-
-
----
+   AZ-104 :
+   Azure Administrator	Managing cloud infrastructure	Covers virtual machines, identity, storage, networking, and governance.
+   
+   AZ-500 :
+   Azure Security Engineer	Cloud security	Focuses on managing identity, securing data and networks, and monitoring threats.
 
 4. For Data Professionals
+   DP-900 :
+   Azure Data Fundamentals	Data beginners	Intro to databases, big data, and analytics using Azure. Good starter before advanced data certs.
 
-Course/Cert	Use-Case	Description
-
-DP-900: Azure Data Fundamentals	Data beginners	Intro to databases, big data, and analytics using Azure. Good starter before advanced data certs.
-DP-203: Data Engineering on Microsoft Azure	Data pipelines	Learn to design and implement data solutions (ETL, Azure Data Factory, Databricks).
-DP-100: Designing and Implementing a Data Science Solution on Azure	Machine learning	Train and deploy ML models using Azure ML studio and Python.
-
-
-
----
+   DP-203 :
+   Data Engineering on Microsoft Azure	Data pipelines	Learn to design and implement data solutions (ETL, Azure Data Factory, Databricks).
+   
+   DP-100 :
+   Designing and Implementing a Data Science Solution on Azure	Machine learning	Train and deploy ML models using Azure ML studio and Python.
 
 5. For DevOps Engineers
-
-Course/Cert	Use-Case	Description
-
-AZ-400: Azure DevOps Engineer Expert	CI/CD & automation	Focus on automating infrastructure, CI/CD pipelines, testing, and monitoring. Requires prior knowledge (usually AZ-104 or AZ-204).
-
-
-
----
-
-🧠 What Should You Know Before Taking These Courses?
-
-Skill Area	Required For	What to Know
-
-Basic Cloud Concepts	AZ-900, all others	Understand what cloud computing is (IaaS, PaaS, SaaS), regions, subscriptions, etc.
-Programming (e.g., C#, JavaScript, Python)	AZ-204, AI-102, DP-100	You should know basic syntax, APIs, and how to work with SDKs. Python is especially useful in AI and data courses.
-Networking Basics	AZ-104, AZ-500	Know what IPs, DNS, firewalls, and VPNs are.
-Azure Portal & CLI	All courses (intermediate+)	You should be comfortable navigating the Azure portal and using Azure CLI or PowerShell.
-DevOps Tools (Git, CI/CD)	AZ-400	GitHub/Git, pipelines, containers, and automation tools.
-Data Tools (SQL, ETL, ML concepts)	DP-900, DP-203, DP-100	Understand databases, data modeling, and basic ML workflow.
-
-
-
----
-
-🎯 Recommended Learning Path (for most people)
-
-1. Start with AZ-900 (no coding needed)
-
-
-2. Choose a direction:
-
-Developer → AZ-204 → AZ-400 (DevOps)
-
-Admin → AZ-104 → AZ-500 (Security)
-
-Data → DP-900 → DP-203 or DP-100
-
-AI → AI-900 → AI-102
-
-
+   AZ-400 :
+   Azure DevOps Engineer Expert	CI/CD & automation	Focus on automating infrastructure, CI/CD pipelines, testing, and monitoring. Requires prior knowledge (usually AZ-104 or AZ-204).
 
 
