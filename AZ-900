@@ -1,0 +1,45 @@
+Youtube Video :
+https://m.youtube.com/watch?v=-pX5PjIYTJs&list=PL9E5VlpXL2EKBDA9KL8r2_JDKMtqh084V&index=3
+
+Concepts :
+
+1. IaaS (Infrastructure as a Service)
+    - Make Your Own Pizza at Home
+      You buy raw ingredients (dough, sauce, cheese) and kitchen tools (oven, rolling pin)
+      You have full control over how to cook it — but you also have to do everything yourself: prepping, baking, cleaning, etc.
+    - Example,
+      Renting a virtual machine from AWS EC2. You decide the OS, software, and settings
+      You also handle updates, security patches, and backups
+
+    - You manage :
+         Data, devices, accounts, applications, network controls, and operating system.
+      Cloud provider manages :
+         Physical servers, network hardware, and data centers
+
+
+2. PaaS (Platform as a Service)
+    - Pizza Base Ready, You Add Toppings
+      The pizza base is already baked for you; you just add your favorite toppings and bake it for a bit
+      You don’t worry about making dough or cleaning the mess — that’s handled by someone else
+    - Example,
+      Azure App Service. You focus only on your app’s code
+      While Azure handles the OS, server updates, and backups
+
+    - You manage :
+         Data, devices, accounts, and your specific applications
+      Cloud provider manages :
+         Operating system, infrastructure, and networking
+
+
+3. SaaS (Software as a Service)
+    - Order Pizza from a Restaurant
+      You just order the pizza and eat it
+      No cooking, no cleaning, no prep — everything is done for you
+    - Example,
+      Gmail, Dropbox, Office 365. You simply log in and use the service
+      All the backend work is handled by the provider
+
+    - You manage :
+         Only your data, devices, and logins
+      Cloud provider manages :
+         Apps, OS, infrastructure, networking
