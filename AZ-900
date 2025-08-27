@@ -49,6 +49,14 @@ Concepts :
       Cloud provider manages :
          Apps, OS, infrastructure, networking
 
+# Development Environment (Dev)
+  - This is where developers write and test code
+
+# UAT Environment (User Acceptance Testing)
+  - After development and internal testing, the code goes here for business users/testers to check
+
+# Production Environment (Prod)
+  - This is the live environment — the real app that actual customers use
 
 # Cloud Models :
   https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models
