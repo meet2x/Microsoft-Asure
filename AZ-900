@@ -49,6 +49,7 @@ Concepts :
       Cloud provider manages :
          Apps, OS, infrastructure, networking
 
+
 # Development Environment (Dev)
   - This is where developers write and test code
 
@@ -58,12 +59,60 @@ Concepts :
 # Production Environment (Prod)
   - This is the live environment — the real app that actual customers use
 
+
 # Cloud Models :
   https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models
 
+# Private Cloud
+  - Think of this as your own personal cloud. It's built just for one company or organization
+  - It offers maximum control, privacy, and security—but it's also costlier and lacks some of the flexibility a public cloud offers
+  - It might be hosted in your own data center or by a third party, but exclusively dedicated to your use
+    - High capital investment (hardware, maintenance)
+    - Full control, tailored security
+    - Scaling takes time and investment
+    - Example,
+      A bank or government agency needing tight control over data and compliance. They host their cloud internally (or via a private service) to manage security themselves
+
+# Public Cloud
+  - This is like renting a room in a shared building—anyone can access it
+  - Owned and managed by big providers like Microsoft, AWS, or Google, it offers fast setup, scalability, and pay-as-you-go pricing, making it very flexible and cost-efficient
+    - No big upfront cost; pay-as-you-go
+    - Less control, shared resources
+    - Very quick and easy to scale
+    - Example,
+      A startup launching an app quickly without investing in servers. They use Azure to get going fast and affordably
+
+# Hybrid Cloud
+  - As the name implies, it's a mix of both private and public clouds working together
+  - You might store sensitive data in your private cloud, then use public cloud space to handle extra demand or scalability. It gives you the best of both worlds—control and flexibility
+    - Mix: manage base costs privately, scale using public cloud when needed
+    - Flexible control, choose where workloads run
+    - Flexible—can burst into public cloud as needed
+    - Example,
+      An e-commerce business hosts sensitive customer data privately but relies on public cloud during high traffic events (like Black Friday) to handle the spike in demand
+
+# Multi-cloud
+  - This means using more than one cloud provider (like Azure + AWS + Google Cloud)
+  - Maybe each cloud has different special features you want
+  - Or maybe you started with one and are moving to another, so you temporarily use both
+
+# Azure Arc
+  - Azure Arc is a management tool from Microsoft, it helps you manage your systems whether they are :
+    Only on Azure,
+    On your company’s private datacenter,
+    A hybrid mix of both,
+    Or spread across multiple clouds (multi-cloud).
+    In short, Arc makes it easier to control everything from one place
+
+# Azure VMware Solution
+  - Some companies already use VMware (a virtualization platform) in their own datacenters (private cloud)
+    If they want to move to the cloud, they don’t need to throw away VMware
+    Azure VMware Solution lets them run VMware inside Azure.
+    This makes moving to Azure much smoother — they can keep using what they know, but with cloud scalability.
 
 
-
+# Describe the consumption-based model
+  https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model
 
 
 
