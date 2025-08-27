@@ -2,8 +2,13 @@ Youtube Video :
 https://m.youtube.com/watch?v=-pX5PjIYTJs&list=PL9E5VlpXL2EKBDA9KL8r2_JDKMtqh084V&index=3
 
 Concepts :
+# What is cloud computing :
+  https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute
 
-1. IaaS (Infrastructure as a Service)
+# Responcibility Model :
+  https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model
+
+# IaaS (Infrastructure as a Service)
     - Make Your Own Pizza at Home
       You buy raw ingredients (dough, sauce, cheese) and kitchen tools (oven, rolling pin)
       You have full control over how to cook it — but you also have to do everything yourself: prepping, baking, cleaning, etc.
@@ -17,7 +22,7 @@ Concepts :
          Physical servers, network hardware, and data centers
 
 
-2. PaaS (Platform as a Service)
+# PaaS (Platform as a Service)
     - Pizza Base Ready, You Add Toppings
       The pizza base is already baked for you; you just add your favorite toppings and bake it for a bit
       You don’t worry about making dough or cleaning the mess — that’s handled by someone else
@@ -31,7 +36,7 @@ Concepts :
          Operating system, infrastructure, and networking
 
 
-3. SaaS (Software as a Service)
+# SaaS (Software as a Service)
     - Order Pizza from a Restaurant
       You just order the pizza and eat it
       No cooking, no cleaning, no prep — everything is done for you
@@ -43,3 +48,16 @@ Concepts :
          Only your data, devices, and logins
       Cloud provider manages :
          Apps, OS, infrastructure, networking
+
+
+# Cloud Models :
+  https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models
+
+
+
+
+
+
+
+
+
