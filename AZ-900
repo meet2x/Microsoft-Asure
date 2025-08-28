@@ -114,6 +114,7 @@ Concepts :
 # Describe the consumption-based model
   https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model
 
+
 # Addtional Notes :
   - Shared Resposibility Model
     https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility
@@ -124,8 +125,57 @@ Concepts :
   - Hybrid Cloud Solutions
     https://learn.microsoft.com/en-us/training/modules/intro-to-azure-hybrid-services/
 
+
 # Availability and scalability in the cloud
   https://learn.microsoft.com/en-gb/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud
+
+
+# Reliability and predictability in the cloud
+  https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts
+
+  - Reliability in the Cloud
+    Reliability in cloud computing refers to a system's ability to consistently perform its intended functions and recover from failures without significant downtime
+    Cloud providers achieve this through:
+      Redundancy        : Having multiple copies of data and services across different data centers. If one fails, another takes over automatically
+      Fault Tolerance   : Designing systems that can continue to operate even if some components fail
+      Disaster Recovery : Having a plan to quickly restore services in the event of a major outage or disaster
+
+  - Predictability in the Cloud  
+    Predictability is the ability to anticipate and manage how a cloud service will perform over time
+    This includes both performance and cost
+      Performance Predictability : This means you can count on your applications to have consistent performance
+                                   Even when user demand suddenly increases
+                                   Cloud services use features like autoscaling to automatically add more resources (like servers) during peak traffic and remove them when demand is low, maintaining smooth operation.
+      Cost Predictability        : This involves being able to forecast your expenses
+                                   Cloud providers offer tools and pricing models that allow you to estimate your costs based on your usage, helping you avoid unexpected bills
+
+
+# DDos Attack :
+  A Distributed Denial-of-Service (DDoS) attack is a type of cybercrime that floods a website, server, or network with a massive amount of internet traffic
+  The purpose is to overwhelm the target, making it slow down or completely unavailable to legitimate users
+  The key word here is "distributed" instead of the attack coming from a single source, a DDoS attack uses a network of many compromised computers or devices, often called a "botnet" to send the malicious traffic
+  
+  - How It Works
+      - Infection         : Attackers infect thousands of internet-connected devices (like computers, smartphones, and IoT devices) with malware, turning them into "bots" or "zombies"
+      - Botnet Creation   : The attacker controls all these bots remotely, forming a large network called a botnet
+      - Attack Launch     : The attacker then commands the botnet to simultaneously flood a target (e.g., a bank's website) with a huge volume of fake requests
+      - Denial of Service : The targeted server, unable to handle the overwhelming flood of traffic becomes overloaded and crashes or is too slow to respond to real customers, effectively denying service
+  
+  - This method makes the attack much harder to stop because the traffic is coming from thousands of different places, making it difficult to distinguish between legitimate users and malicious bots
+
+
+# Manageability in the cloud
+  https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud
+ 
+  -  Manageability in the cloud refers to how easy it is to monitor, operate, and control your cloud resources and services
+     It's about having the right tools and automation to handle your IT environment efficiently
+  -  Cloud providers offer tools like a web portal, command line interface (CLI), and APIs that allow you to manage your resources
+     This means you can automate tasks like,
+        Deploying updates to all your servers at once
+        Monitoring performance and getting alerts if something is wrong
+        Scaling resources up or down automatically based on demand
+
+
 
 
 
