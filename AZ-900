@@ -175,6 +175,7 @@ Concepts :
         Monitoring performance and getting alerts if something is wrong
         Scaling resources up or down automatically based on demand
 
+
 # Orchestration Mode
   Uniform Orchestration Mode
     - It is designed for large-scale, identical virtual machines (VMs), It's the original and more traditional mode for VM scale sets
@@ -200,11 +201,13 @@ Concepts :
         Hybrid Applications, Combines the benefits of VM scale sets with the granular control of individual VMs. It's great for stateful applications where each VM might hold unique data or have a specific role that makes it non-interchangeable
         Auto-scaling, Flexible mode also supports auto-scaling, allowing you to add or remove VMs dynamically, just like uniform mode
 
+
 # VM scale sets support both auto-scaling and manual scaling.
     - Auto-scaling
         The scale set automatically adds or removes VMs based on predefined rules (e.g., CPU usage, memory, network traffic). This is the key feature for handling fluctuating workloads
     - Manual scaling
         You can manually increase or decrease the instance count of the scale set. This is useful for planned events or for specific, non-automated changes
+
 
 # Both Azure VMs and VMSS ultimately create operating system instances, but their core purpose and the scenarios they are designed for are fundamentally different
   Here's the key distinction:
@@ -217,6 +220,7 @@ Concepts :
 
     So, while both services result in an OS being created,
     the difference lies in the management model and the underlying use case. One is for individual, granular control, and the other is for dynamic, scaled-out workloads
+
 
 
 
