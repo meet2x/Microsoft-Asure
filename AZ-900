@@ -15,6 +15,7 @@ Concepts :
     - Example,
       Renting a virtual machine from AWS EC2. You decide the OS, software, and settings
       You also handle updates, security patches, and backups
+      Lift-and-shift migration: You’re setting up cloud resources similar to your on-prem datacenter, and then simply moving the things running on-prem to running on the IaaS infrastructure
 
     - You manage :
          Data, devices, accounts, applications, network controls, and operating system.
@@ -249,6 +250,8 @@ Concepts :
                                         But containers don’t bring their own full OS — they rely on the host OS kernel
     - Example :
       You put your web app in a Docker container and run it on Azure Container Instances or Azure Kubernetes Service
+
+
 
 
 
