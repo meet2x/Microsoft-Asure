@@ -15,7 +15,8 @@ Concepts :
     - Example,
       Renting a virtual machine from AWS EC2. You decide the OS, software, and settings
       You also handle updates, security patches, and backups
-      Lift-and-shift migration: You’re setting up cloud resources similar to your on-prem datacenter, and then simply moving the things running on-prem to running on the IaaS infrastructure
+      Lift-and-shift migration : You’re setting up cloud resources similar to your on-prem datacenter, and then simply moving the things running on-prem to running on the IaaS infrastructure
+      Testing and development  : You have established configurations for development and test environments that you need to rapidly replicate. You can start up or shut down the different environments rapidly with an IaaS structure, while maintaining complete control
 
     - You manage :
          Data, devices, accounts, applications, network controls, and operating system.
