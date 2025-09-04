@@ -222,6 +222,41 @@ Concepts :
     the difference lies in the management model and the underlying use case. One is for individual, granular control, and the other is for dynamic, scaled-out workloads
 
 
+# How Virtual Machines (VMs) work in a cloud platform like Microsoft Azure,
+    Infrastructure                    → Physical hardware (servers, storage, networking) provided and managed by Microsoft (the cloud provider)
+    Operating System (Host OS)        → The base operating system running on that infrastructure
+    Hypervisor                        → The software layer (like Hyper-V in Azure) that enables virtualization
+                                        It allows multiple virtual machines to run on the same physical server by abstracting hardware resources
+                                        They install and maintain the host OS + hypervisor on their servers (infrastructure)
+                                        You don’t see or manage this part — Microsoft takes care of it
+    Guest OS (inside VMs)             → Each VM has its own OS (Windows, Linux, etc.), chosen and managed by the customer.
+    Applications + Libraries/Binaries → The customer installs and runs their applications on top of their VM’s OS.
+    - Customers rent VMs on Azure. Each VM has a dedicated guest OS and feels like a standalone computer, but in reality, it shares underlying hardware managed by Microsoft
+    - Example :
+      You create a Windows Server VM on Azure → you can Remote Desktop into it just like your own PC
+
+
+# How Containars work in a cloud plateform,
+    Infrastructure                    → The physical servers, storage, and networking — provided and managed by Microsoft
+    Operating System (Host OS)        → A single OS kernel (Linux or Windows) installed by Microsoft
+                                        All containers on that host will share this kernel
+                                        This is why you can’t mix Windows and Linux containers on the same host
+                                        However, in cloud platforms like Azure/Kubernetes, they solve this by running both Linux and Windows hosts in the cluster
+                                        Then your Linux containers get scheduled on Linux hosts, Your Windows containers get scheduled on Windows hosts
+    Container Runtime                 → Software (like Docker or containerd) that actually runs and manages the containers
+                                      → It takes your container images (your app + dependencies) and launches them
+    Container                         → Each container has, Your application, Libraries/dependencies it needs
+                                        But containers don’t bring their own full OS — they rely on the host OS kernel
+    - Example :
+      You put your web app in a Docker container and run it on Azure Container Instances or Azure Kubernetes Service
+
+
+
+
+
+
+
+
 
 
 
